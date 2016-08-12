@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "alpn_boot_jruby"
   spec.version       = AlpnBootJruby::VERSION
   spec.authors       = ["Rory Sinclair"]
-  spec.email         = ["rory@mungler.com"]
+  spec.email         = ["rory@asmallworld.net"]
   spec.platform      = "java"
 
   spec.summary       = "A simple gem wrapper around Jetty's alpn-boot jar"
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata['allowed_push_host'] = "http://gem.asmallworld.net"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
