@@ -34,7 +34,7 @@ module AlpnBootJruby
     end
   end
 
-  VERSION = "0.1.0"
+  VERSION = "8.1.9.v20160720"
   JAR_VERSION = jar_version_for_jdk
 
 end
